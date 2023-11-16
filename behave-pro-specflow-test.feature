@@ -1,3 +1,4 @@
+@specfloeBehavePro
 Feature: Behave Pro Specflow test
 
   Behave Pro Specflow test
