@@ -1,6 +1,5 @@
 Feature: BehavePro - Login
 
-  @ORPHAN
   Scenario: BehavePro - Login with valid credentials
     Given a user has valid credentials
     When the user navigates to the website
@@ -16,3 +15,6 @@ Feature: BehavePro - Login
     And the user presses Sign In
     Then the user should not be granted access to the site
     And the site should display an error message
+
+  @ORPHAN
+  Scenario: New scenario for testing created _2011
