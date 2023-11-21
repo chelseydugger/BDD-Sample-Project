@@ -47,7 +47,7 @@ jobs:
                 -H "X-COMMIT-ID: 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 \
                 -H "X-BUILD-ID: ${{github.run_id}}" \
                 -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/${{github.run_id}} \
-                --data-binary @./target/cucumber-reports/cucumber.json
+                --data-binary @./test-result.xml
 
                 
            
