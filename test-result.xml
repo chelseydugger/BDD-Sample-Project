@@ -1,31 +1,30 @@
-{
-	"testsuites": {
-		"testsuite": {
-			"properties": "",
-			"testcase": [
-				{
-					"_classname": "SampleProject.TestUserLoginFeature",
-					"_name": "VerifyThatUserIsAbleToLoginWithValidCredentials",
-					"_time": "0.0210191"
-				},
-				{
-					"_classname": "SampleProject.TestUserLoginFeature",
-					"_name": "VerifyThatIsNotAbleToLoginWithInvalidCredentials",
-					"_time": "0.0011174"
-				}
-			],
-			"system-out": "Given User enters 'Aravindan' and 'Kaiv'\n-> done: TestUserLoginStepDefinitions.GivenUserEntersAnd(\"Aravindan\", \"Kaiv\") (0.0s)\nWhen User clicks on login\n-> done: TestUserLoginStepDefinitions.WhenUserClicksOnLogin() (0.0s)\nThen Response should be True\n-> done: TestUserLoginStepDefinitions.ThenResponseShouldBeTrue() (0.0s)\n\nGiven User enters 'username' and 'password'\n-> done: TestUserLoginStepDefinitions.GivenUserEntersAnd(\"username\", \"password\") (0.0s)\nWhen User clicks on login\n-> done: TestUserLoginStepDefinitions.WhenUserClicksOnLogin() (0.0s)\nThen Response should be false\n-> done: TestUserLoginStepDefinitions.ThenResponseShouldBeFalse() (0.0s)\n\n\nTest Framework Informational Messages:\n[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.23)\n[xUnit.net 00:00:02.27]   Discovering: SampleProject\n[xUnit.net 00:00:02.30]   Discovered:  SampleProject\n[xUnit.net 00:00:02.31]   Starting:    SampleProject\n[xUnit.net 00:00:02.59]   Finished:    SampleProject",
-			"system-err": "",
-			"_name": "SampleProject.dll",
-			"_tests": "2",
-			"_skipped": "0",
-			"_failures": "0",
-			"_errors": "0",
-			"_time": "0.0221365",
-			"_timestamp": "2023-11-07T22:38:29",
-			"_hostname": "ONBE-4202214057",
-			"_id": "0",
-			"_package": "SampleProject.dll"
-		}
-	}
-}
+<testsuites>
+  <testsuite name="SampleProject.dll" tests="2" skipped="0" failures="0" errors="0" time="0.0221365" timestamp="2023-11-07T22:38:29" hostname="ONBE-4202214057" id="0" package="SampleProject.dll">
+    <properties />
+    <testcase classname="SampleProject.TestUserLoginFeature" name="VerifyThatUserIsAbleToLoginWithValidCredentials" time="0.0210191" />
+    <testcase classname="SampleProject.TestUserLoginFeature" name="VerifyThatIsNotAbleToLoginWithInvalidCredentials" time="0.0011174" />
+    <system-out>Given User enters 'Aravindan' and 'Kaiv'
+-&gt; done: TestUserLoginStepDefinitions.GivenUserEntersAnd("Aravindan", "Kaiv") (0.0s)
+When User clicks on login
+-&gt; done: TestUserLoginStepDefinitions.WhenUserClicksOnLogin() (0.0s)
+Then Response should be True
+-&gt; done: TestUserLoginStepDefinitions.ThenResponseShouldBeTrue() (0.0s)
+
+Given User enters 'username' and 'password'
+-&gt; done: TestUserLoginStepDefinitions.GivenUserEntersAnd("username", "password") (0.0s)
+When User clicks on login
+-&gt; done: TestUserLoginStepDefinitions.WhenUserClicksOnLogin() (0.0s)
+Then Response should be false
+-&gt; done: TestUserLoginStepDefinitions.ThenResponseShouldBeFalse() (0.0s)
+
+
+Test Framework Informational Messages:
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.23)
+[xUnit.net 00:00:02.27]   Discovering: SampleProject
+[xUnit.net 00:00:02.30]   Discovered:  SampleProject
+[xUnit.net 00:00:02.31]   Starting:    SampleProject
+[xUnit.net 00:00:02.59]   Finished:    SampleProject
+</system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>
