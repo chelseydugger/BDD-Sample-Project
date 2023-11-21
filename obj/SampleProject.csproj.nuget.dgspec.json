@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan-BDD qTest Scenarios\\SampleProject\\SampleProject.csproj": {}
+    "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan-BDD qTest Scenarios\\SampleProject\\SampleProject.csproj": {
+    "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan-BDD qTest Scenarios\\SampleProject\\SampleProject.csproj",
+        "projectUniqueName": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj",
         "projectName": "SampleProject",
-        "projectPath": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan-BDD qTest Scenarios\\SampleProject\\SampleProject.csproj",
-        "packagesPath": "C:\\Users\\chelsey.dugger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan-BDD qTest Scenarios\\SampleProject\\obj\\",
+        "projectPath": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj",
+        "packagesPath": "C:\\Users\\akaivalliam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chelsey.dugger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\akaivalliam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,33 +48,23 @@
               "target": "Package",
               "version": "[6.12.0, )"
             },
-            "JunitXml.TestLogger": {
-              "target": "Package",
-              "version": "[3.0.134, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.8.0, )"
             },
             "SpecFlow.xUnit": {
               "target": "Package",
               "version": "[3.9.74, )"
             },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.2, )"
+              "version": "[2.6.2, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[2.5.4, )"
             }
           },
           "imports": [
@@ -90,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
-    <Settings projectName="BDD-Sample-Project" />
+    <Settings projectName="SampleProject" />
     <Execution stopAfterFailures="3" testThreadCount="1" testSchedulingMode="Sequential" />
     <Report>
         <Template name="../../../Templates/CucumberJson.cshtml" outputName="Report.json"/>
     </Report>
     <TestAssemblyPaths>
-        <TestAssemblyPath>BDD-Sample-Project.dll</TestAssemblyPath>
+        <TestAssemblyPath>SampleProject.dll</TestAssemblyPath>
     </TestAssemblyPaths>
 </TestProfile> 
