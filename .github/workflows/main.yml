@@ -46,7 +46,7 @@ jobs:
                 -H "X-API-KEY: OWMzODAyYzctMDM3Mi00NDRkLTgwODgtYjA2NGM4ZTFhZDljLlpEbmZjZmFXbmVxalZZTERkaHQ4 \
                 -H "X-COMMIT-ID: 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 \
                 -H "X-BUILD-ID: $GITHUB_RUN_ID" \
-                -H "X-BUILD-URL: https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" 
+                -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/$GITHUB_RUN_ID" 
 
                 
            
