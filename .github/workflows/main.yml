@@ -19,7 +19,7 @@ jobs:
         - name: Install dependencies
           run: dotnet restore
         - name: Test with dotnet test
-          run: dotnet test "BDD-Sample-Project.csproj" --no-build --verbosity normal --logger:"junit;LogFilePath=test-result.xml"
+          run: dotnet test "SampleProject.csproj" --no-build --verbosity normal --logger:"junit;LogFilePath=test-result.xml"
         - name: Upload dotnet test results
           uses: actions/upload-artifact@v3
           with:
