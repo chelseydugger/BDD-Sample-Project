@@ -38,15 +38,14 @@ jobs:
                   echo -e "Working on file -----------------------------------> $file"
                   Parser_Response=$(curl --request POST $qTestPULSEURL -d "projectId=$qTestProject" -d "testcycle=$NewTestCycle" -d "result=$(echo $(cat $file) | basenc --base64url | tr -d \\n)" )             
                 done
-                curl -L -X PUT https://test-reports.behave.pro/REST/1.0/bdd/report \
 
         - name: upload behave pro results in jira
           run: |
                 curl -L -X PUT https://test-reports.behave.pro/REST/1.0/bdd/report \
-                -H "X-API-KEY: OWMzODAyYzctMDM3Mi00NDRkLTgwODgtYjA2NGM4ZTFhZDljLlpEbmZjZmFXbmVxalZZTERkaHQ4 \
-                -H "X-COMMIT-ID: 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 \
+                -H "X-API-KEY: OWMzODAyYzctMDM3Mi00NDRkLTgwODgtYjA2NGM4ZTFhZDljLlpEbmZjZmFXbmVxalZZTERkaHQ4" \
+                -H "X-COMMIT-ID: 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" \
                 -H "X-BUILD-ID: ${{github.run_id}}" \
-                -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/${{github.run_id}} \
+                -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/${{github.run_id}}" \
                 --data-binary @./test-result.xml
 
                 
