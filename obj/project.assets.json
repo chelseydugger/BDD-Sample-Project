@@ -47,6 +47,12 @@
           }
         }
       },
+      "JunitXml.TestLogger/3.0.134": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.5/JUnitXml.TestLogger.props": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.8.0": {
         "type": "package",
         "compile": {
@@ -2079,6 +2085,23 @@
         "lib/net45/Gherkin.xml",
         "lib/netstandard2.0/Gherkin.dll",
         "lib/netstandard2.0/Gherkin.xml"
+      ]
+    },
+    "JunitXml.TestLogger/3.0.134": {
+      "sha512": "KoZInijT7rUEXGEOGUQfzLBZFaA65A7g6AhosHCI/aPuqxYMq40wUOO3kynor8QQhbgU+lpLFmhAxNb3+JoCfQ==",
+      "type": "package",
+      "path": "junitxml.testlogger/3.0.134",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestLogger.dll",
+        "build/_common/Spekt.TestLogger.dll",
+        "build/net46/JUnitXml.TestLogger.props",
+        "build/netstandard1.5/JUnitXml.TestLogger.props",
+        "junitxml.testlogger.3.0.134.nupkg.sha512",
+        "junitxml.testlogger.nuspec",
+        "packageIcon.png"
       ]
     },
     "Microsoft.CodeCoverage/17.8.0": {
@@ -6401,6 +6424,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentAssertions >= 6.12.0",
+      "JunitXml.TestLogger >= 3.0.134",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "SpecFlow.xUnit >= 3.9.74",
       "xunit >= 2.6.2",
@@ -6450,6 +6474,10 @@
           "FluentAssertions": {
             "target": "Package",
             "version": "[6.12.0, )"
+          },
+          "JunitXml.TestLogger": {
+            "target": "Package",
+            "version": "[3.0.134, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

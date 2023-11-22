@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OpKtg25VbMFVJsoaV4IUcbLnN/BqQveHxXxsIsr4sIt3ZbYtjwCcSx0tyUTZIO6Lk9zYK/asvCDj0rtpZiyS2A==",
+  "dgSpecHash": "bxl2X6blgcZ4tB9kwrmLp199luuoKjTYJDhB7rd4YdZgq0FqL0MNH9KwCmV4uqfmv+eLPDh9t93B4IKSoKE9zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\SampleProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\chelsey.dugger\\.nuget\\packages\\junitxml.testlogger\\3.0.134\\junitxml.testlogger.3.0.134.nupkg.sha512",
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\chelsey.dugger\\.nuget\\packages\\microsoft.extensions.dependencymodel\\1.0.3\\microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",

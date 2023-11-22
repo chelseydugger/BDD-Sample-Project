@@ -9,6 +9,7 @@
       "SampleProject/1.0.0": {
         "dependencies": {
           "FluentAssertions": "6.12.0",
+          "JunitXml.TestLogger": "3.0.134",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "SpecFlow.xUnit": "3.9.74",
           "xunit": "2.6.2",
@@ -45,6 +46,7 @@
           }
         }
       },
+      "JunitXml.TestLogger/3.0.134": {},
       "Microsoft.CodeCoverage/17.8.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1246,6 +1248,13 @@
       "path": "gherkin/19.0.3",
       "hashPath": "gherkin.19.0.3.nupkg.sha512"
     },
+    "JunitXml.TestLogger/3.0.134": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KoZInijT7rUEXGEOGUQfzLBZFaA65A7g6AhosHCI/aPuqxYMq40wUOO3kynor8QQhbgU+lpLFmhAxNb3+JoCfQ==",
+      "path": "junitxml.testlogger/3.0.134",
+      "hashPath": "junitxml.testlogger.3.0.134.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",
       "serviceable": true,
@@ -1375,7 +1384,7 @@
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jwjwlEL0Elv6gwoyaokRn12nv/JE+UW/DXJEbzhjCPvGbef36StnHKc9XaZD/rGWqYicrphZ7eumR/jdmNcjRg==",
+      "sha512": "sha512-DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "hashPath": "runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
     },
@@ -1403,7 +1412,7 @@
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "sha512-kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
     },
