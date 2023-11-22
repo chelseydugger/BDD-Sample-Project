@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj": {}
+    "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\SampleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj": {
+    "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\SampleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj",
+        "projectUniqueName": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\SampleProject.csproj",
         "projectName": "SampleProject",
-        "projectPath": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\SampleProject.csproj",
-        "packagesPath": "C:\\Users\\akaivalliam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akaivalliam\\Source\\Repos\\BDD-Sample-Project\\obj\\",
+        "projectPath": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\SampleProject.csproj",
+        "packagesPath": "C:\\Users\\chelsey.dugger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chelsey.dugger\\GitKraken\\Aravindan - BDD Sample Project 2\\BDD Sample Project\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\akaivalliam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chelsey.dugger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
