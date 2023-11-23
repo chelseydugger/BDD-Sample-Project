@@ -6,7 +6,7 @@
     "line": 2,
     "id": "example-feature",
     "tags": [],
-    "uri": "features/myfeature.feature",
+    "uri": "behave-pro-specflow-test.feature",
     "elements": [
       {
         "id": "example-feature;reading-documentation",
