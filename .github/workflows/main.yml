@@ -43,10 +43,10 @@ jobs:
           run: |
                 curl -L -X PUT https://test-reports.behave.pro/REST/1.0/bdd/report \
                 -H "X-API-KEY: OWMzODAyYzctMDM3Mi00NDRkLTgwODgtYjA2NGM4ZTFhZDljLlpEbmZjZmFXbmVxalZZTERkaHQ4" \
-                -H "X-COMMIT-ID: 6b6ce7b" \
+                -H "X-COMMIT-ID: 42654bb677ef9aa92a0a56aba57df2d036950da8" \
                 -H "X-BUILD-ID: ${{github.run_id}}" \
                 -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/${{github.run_id}}" \
-                --data-binary @./test-result.json
+                --data-binary @./sample.json
 
                 
            
