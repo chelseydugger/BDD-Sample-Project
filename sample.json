@@ -1,160 +1,49 @@
-
+[
   {
+    "description": "  As a user of Cucumber.js\n  I want to have documentation on Cucumber\n  So that I can concentrate on building awesome applications",
+    "keyword": "Feature",
+    "name": "Example feature",
     "line": 2,
+    "id": "example-feature",
+    "tags": [],
+    "uri": "features/myfeature.feature",
     "elements": [
       {
-        "line": 4,
-        "name": "Title of Background",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 38963404000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_am_on_the_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2530519000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I follow \"Sign in\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sign in\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_follow_link(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-02-23T07:56:08.338Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1670766000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.bf0()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Verify Forgot Password Functionality",
-        "description": "",
-        "id": "registration--login-and-myaccount;verify-forgot-password-functionality",
-        "after": [
-          {
-            "result": {
-              "duration": 5003024000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.af0()"
-            }
-          }
-        ],
-        "type": "scenario",
+        "id": "example-feature;reading-documentation",
         "keyword": "Scenario",
+        "line": 7,
+        "name": "Reading documentation",
+        "tags": [],
+        "type": "scenario",
         "steps": [
           {
-            "result": {
-              "duration": 5940303000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I follow \"Forgot your password?\" link",
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open Google chrome",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Forgot your password?\"",
-                  "offset": 9
-                }
-              ],
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_follow_link(java.lang.String)"
+              "location": "Projects/nodejs-cucumber-sample-master/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:135"
             },
-            "keyword": "When "
+            "result": {
+              "status": "passed",
+              "duration": 7033
+            }
           },
           {
-            "result": {
-              "error_message": "java.lang.ArithmeticException: / by zero\n\tat com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_fill_in_with(StepDefinitions.java:167)\n\tat ✽.I fill in \"input[id\u003d\u0027email\u0027]\" with \"goswami.tarun77+7@gmail.com\"(file:///Users/tarungoswami/git/cucumbertest/cucumbertest/features/Login.feature:25)\n",
-              "duration": 188597000,
-              "status": "failed"
-            },
-            "line": 25,
-            "name": "I fill in \"input[id\u003d\u0027email\u0027]\" with \"goswami.tarun77+7@gmail.com\"",
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I search for QMetry",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"input[id\u003d\u0027email\u0027]\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"goswami.tarun77+7@gmail.com\"",
-                  "offset": 35
-                }
-              ],
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_fill_in_with(java.lang.String,java.lang.String)"
+              "location": "Projects/nodejs-cucumber-sample-master/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:135"
             },
-            "keyword": "And "
-          },
-          {
             "result": {
-              "duration": 35000,
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "I click on \"button[type\u003d\u0027submit\u0027] span i\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"button[type\u003d\u0027submit\u0027] span i\"",
-                  "offset": 11
-                }
-              ],
-              "location": "com.pb.cucumbertest.stepdefinitions.StepDefinitions.i_click_sign_in_button(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@sanity"
-          },
-          {
-            "name": "@singleargument"
+              "status": "passed",
+              "duration": 86
+            }
           }
         ]
-      }
-    ],
-    "name": "Registration, Login and MyAccount",
-    "description": "",
-    "id": "registration--login-and-myaccount",
-    "keyword": "Feature",
-    "uri": "file:behave-pro-specflow-test.feature",
-    "tags": [
-      {
-        "name": "@sanity",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
       }
     ]
   }
+]
