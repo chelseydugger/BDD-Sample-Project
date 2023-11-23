@@ -42,8 +42,8 @@ jobs:
         - name: upload behave pro results in jira
           run: |
                 curl -L -X PUT https://test-reports.behave.pro/REST/1.0/bdd/report \
-                -H "X-API-KEY: OWMzODAyYzctMDM3Mi00NDRkLTgwODgtYjA2NGM4ZTFhZDljLlpEbmZjZmFXbmVxalZZTERkaHQ4" \
-                -H "X-COMMIT-ID: 42654bb677ef9aa92a0a56aba57df2d036950da8" \
+                -H "X-API-KEY: YjdlZmM1NjktMDMwNy00YjM4LWJkNzYtZWE3Mjg4MzQ2N2UwLktlTVU4SXF4UFZDZ0ltem9Dd0Rh" \
+                -H "X-COMMIT-ID: 28479d9f7b47242a154559e1d633a31728332d7a" \
                 -H "X-BUILD-ID: ${{github.run_id}}" \
                 -H "X-BUILD-URL: https://github.com/chelseydugger/BDD-Sample-Project/actions/runs/${{github.run_id}}" \
                 --data-binary @./sample.json
