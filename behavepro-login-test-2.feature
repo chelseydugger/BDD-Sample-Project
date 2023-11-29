@@ -5,5 +5,5 @@ Feature: BehavePro - Login Test 2
     Given a user has valid credentials
     When the user navigates to the website
     And the user enters their credentials
-    And the user presses Sign In
+    And the user presses Sign In 
     Then the user should be granted access to the site
