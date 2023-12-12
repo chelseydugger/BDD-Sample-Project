@@ -1,4 +1,4 @@
-name: dotnet package
+name: Junit dotnet package
 
 on: [push]
 
