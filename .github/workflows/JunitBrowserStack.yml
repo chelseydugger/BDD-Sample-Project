@@ -27,13 +27,12 @@ jobs:
             path: "test-result.xml"
           # Use always() to always run this step to publish test results when there are test failures
             #if: ${{ always() }}
-        - name: git
+        - name: git action adding test report
           run: |
                git config --global user.email "sulagna.chakraborty@onbe.com"
                git config --global user.name "Sulagna Chakraborty"
-                git add .
-                git commit -m "Adding Latest Junit Report file"
-                git push origin master    
+               git commit -a -m "Adding Latest Junit Report file"
+               git push   
         - name: Upload Junit results in BrowserStack
           run: |
                 curl -u "sulagnachakrabor_hF8bLJ:1bt4ji6nzS6ALopzMHZq" -vvv \
