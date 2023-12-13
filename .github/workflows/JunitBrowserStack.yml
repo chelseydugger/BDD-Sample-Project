@@ -27,6 +27,11 @@ jobs:
             path: "test-result.xml"
           # Use always() to always run this step to publish test results when there are test failures
             #if: ${{ always() }}
+        - name: git
+          run: |
+                git add.
+                git commit -m "Adding Latest Junit Report file"
+                git push origin master    
         - name: Upload Junit results in BrowserStack
           run: |
                 curl -u "sulagnachakrabor_hF8bLJ:1bt4ji6nzS6ALopzMHZq" -vvv \
@@ -34,8 +39,4 @@ jobs:
                 -F "data=test-result.xml" \
                 -F "projectName=Junit report uploads" \
                 -F "buildName=Observability Sample Testing Upload" \
-                -F "buildIdentifier=Sample Build Identifier" \
-                -F "tags=junit_upload, regression" \
-                -F "ci=http://localhost:8080/" \
-                -F "frameworkVersion=mocha, 10.0.0" \
     
