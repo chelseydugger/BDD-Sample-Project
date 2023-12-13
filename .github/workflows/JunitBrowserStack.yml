@@ -29,6 +29,8 @@ jobs:
             #if: ${{ always() }}
         - name: git
           run: |
+               git config --global user.email "sulagna.chakraborty@onbe.com"
+               git config --global user.name "Sulagna Chakraborty"
                 git add .
                 git commit -m "Adding Latest Junit Report file"
                 git push origin master    
